@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>“有我不筹”众筹平台</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+          body{
+            font-size:18px;
+            position:absolute;
+            width:100%;
+            height:100%;
+            display:flex;
+            margin:auto;
+            flex-direction:column; /*主轴为垂直方向，起点在上沿*/
+          }
+          a{
+            text-decoration:none; /*去掉超链接下划线*/
+          }
+          ul{
+            list-style: none; /*去掉小圆点*/
+          }
+
+          .header{
+            background-color: #99CCCC;
+            border:1px solid #000;
+            height:13%;
+            width:100%;
+          }
+          .logo img{
+            height:96px;
+            width:300px;
+            display:flex;
+            float:left;
+            position:relative;
+            top:-19px;
+          }
+          .logo h1{
+            font-size:25px;
+            color:rgb(90,125,145);
+            position:relative;
+            top:35px;
+            left:30px;
+          }
+          h1{
+            position:relative;
+            top:-12px;
+          }
+          #search{
+            display:flex;
+            float:right;
+            position:relative;
+            top:-30px;
+            right:120px;
+          }
+          #lo{
+            font-size: 22px;
+            display:flex;
+            float:right;
+            position: relative;
+            top:-22px;
+            left:260px;
+          }
+          #lo a:hover{
+            color:#000;
+            text-decoration:none;
+          }
+          nav{
+            background-color:#99CCCC;
+            height:6%;
+            width:100%;
+            border-bottom: 1px solid #000;
+          }
+
+          main{
+            height:70%;
+            background-color: #99CCCC;
+          }
+
+
+          footer{
+            border-top:1px solid #000;
+            height: 25%;
+            width:100%;
+            font-size:16px;
+            background-color: #99CC99;
+          }
+          .p1{
+            position: relative;
+            left:100px;
+            top:10px;
+          }
+          .p2{
+            position: relative;
+            left:600px;
+            top:-150px;
+          }
+          .p3{
+            position: relative;
+            left:800px;
+            top:-275px;
+          }
+          .erweima1{
+            position: relative;
+            left:1050px;
+            top:-390px;
+          }
+          .erweima1 p{
+            position: relative;
+            left:18px;
+          }
+          .erweima2{
+            position: relative;
+            left:1250px;
+            top:-521px;
+          }
+          .erweima2 p{
+            position: relative;
+            left:18px;
+          }
+    </style>
+</head>
+<body>
+  <!-- 设置页头 -->
+  <header class="header">
+    <div class="logo">
+      <img src="../images/1.png" alt="">
+      <h1>让所有人都放心的众筹平台</h1>
+    </div>
+    <form class="navbar-form" id="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="">
+      </div>
+      <button type="submit" class="btn btn-primary">搜索</button>
+    </form>
+    <p id="lo"><a href="html/login.html">登录</a>/<a href="html/register.html">注册</a></p>
+  </header>
+  <!-- 设置导航条 -->
+  <nav>
+    <ul class="nav nav-justified">
+      <li class="active"><a href="#" class="a1">首页</a></li>
+      <li role="presentation" class="active">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">众筹产品</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">大病众筹</a></li>
+          <li><a href="#">产品众筹</a></li>
+          <li><a href="#">公益众筹</a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="#" class="a1">项目列表</a></li>
+      <li class="active"><a href="#" class="a1">新闻论坛</a></li>
+      <li class="active"><a href="#" class="a1">账号管理</a></li>
+    </ul>
+  </nav>
+    <main>
+
+    </main>
+  <footer>
+      <p class="p1">联系我们</p>
+      <p class="p1">客服电话：000-000-0000</p>
+      <p class="p1">商务沟通：XXXXX@163.com</p>
+      <p class="p1">服务时间：8:00-16:30</p>
+      <p class="p1">公司地址：浙江省杭州市西湖区XX路XX号</p>
+      <p class="p2"><a href="#">项目</a></p>
+      <p class="p2"><a href="#">查看项目</a></p>
+      <p class="p2"><a href="#">发起项目</a></p>
+      <p class="p2"><a href="#">投资项目</a></p>
+      <p class="p3"><a href="#">关于</a></p>
+      <p class="p3"><a href="#">相关介绍</a></p>
+      <p class="p3"><a href="#">用户指南</a></p>
+      <p class="p3"><a href="#">寻求帮助</a></p>
+      <div class="erweima1">
+        <img src="../images/erweima.jpg" alt="">
+        <p>官方微博</p>
+      </div>
+      <div class="erweima2">
+        <img src="../images/erweima.jpg" alt="">
+        <p>官方微信</p>
+      </div>
+    </footer>
+    <!-- /footer end -->
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+
+<!--<html>-->
+<!--      <style type="text/css">-->
+<!--        body{color:#efd;background:#453;padding:0 5em;margin:0}-->
+<!--        h1{padding:2em 1em;background:#675}-->
+<!--        h2{color:#bf8;border-top:1px dotted #fff;margin-top:2em}-->
+<!--        p{margin:1em 0}-->
+<!--      </style>-->
+
+<!--      <body>-->
+<!--        <h1>我的博客</h1>-->
+<!--        <h3>显示最新内容</h3>-->
+<!--        {% block content %}-->
+<!--        {% endblock %}-->
+<!--      </body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--</body>-->
+<!--</html>-->
+
