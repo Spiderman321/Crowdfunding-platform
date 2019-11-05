@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8528a6-450e-4468-96a0-50e56dc8110f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding/static/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding/static/images/erweima.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crowdsourcing/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crowdsourcing/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crowdsourcing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crowdsourcing/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="8a8528a6-450e-4468-96a0-50e56dc8110f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
