@@ -118,13 +118,25 @@
             position: relative;
             left:18px;
           }
+          .userInput{
+	        display: block;
+          }
+          .userInput input{
+	        width: 200px;
+	        height:25px;
+	        margin-top: 10px;
+	        margin-left: 100px;
+	        border-radius: 4px;
+	        border: 1px solid #000;
+	        outline: none;
+          }
     </style>
 </head>
 <body>
   <!-- 设置页头 -->
   <header class="header">
     <div class="logo">
-      <img src="../images/1.png" alt="">
+      <img src="/static/images/1.png" alt="">
       <h1>让所有人都放心的众筹平台</h1>
     </div>
     <form class="navbar-form" id="search">
@@ -153,7 +165,9 @@
     </ul>
   </nav>
     <main>
+                {% block content %}
 
+                {% endblock %}
     </main>
   <footer>
       <p class="p1">联系我们</p>
@@ -170,11 +184,11 @@
       <p class="p3"><a href="#">用户指南</a></p>
       <p class="p3"><a href="#">寻求帮助</a></p>
       <div class="erweima1">
-        <img src="../images/erweima.jpg" alt="">
+        <img src="/static/images/erweima.jpg" alt="">
         <p>官方微博</p>
       </div>
       <div class="erweima2">
-        <img src="../images/erweima.jpg" alt="">
+        <img src="/static/images/erweima.jpg" alt="">
         <p>官方微信</p>
       </div>
     </footer>
@@ -185,33 +199,4 @@
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
   </body>
-  </html>
-
-<!--<html>-->
-<!--      <style type="text/css">-->
-<!--        body{color:#efd;background:#453;padding:0 5em;margin:0}-->
-<!--        h1{padding:2em 1em;background:#675}-->
-<!--        h2{color:#bf8;border-top:1px dotted #fff;margin-top:2em}-->
-<!--        p{margin:1em 0}-->
-<!--      </style>-->
-
-<!--      <body>-->
-<!--        <h1>我的博客</h1>-->
-<!--        <h3>显示最新内容</h3>-->
-<!--        {% block content %}-->
-<!--        {% endblock %}-->
-<!--      </body>-->
-<!--</html>-->
-
-
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <title>Title</title>-->
-<!--</head>-->
-<!--<body>-->
-
-<!--</body>-->
-<!--</html>-->
-
+</html>

@@ -19,8 +19,15 @@ from django.urls import include, path
 from django.contrib import admin
 from crowdfunding import views
 
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
+from django.contrib import staticfiles
+
 app_name='crowdfunding'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name= 'index'),
+    path('', views.index, name='index'),
 ]
+# 设置静态文件路径
+urlpatterns += staticfiles_urlpatterns()
