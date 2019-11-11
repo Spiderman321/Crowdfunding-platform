@@ -1,0 +1,125 @@
+body{
+    font-size:18px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    margin:auto;
+    flex-direction:column; /*主轴为垂直方向，起点在上沿*/
+}
+a{
+    text-decoration:none; /*去掉超链接下划线*/
+}
+ul{
+    list-style: none; /*去掉小圆点*/
+}
+
+.header{
+    background-color: #99CCCC;
+    border:1px solid #000;
+    height:13%;
+    width:100%;
+}
+.logo img{
+    height:96px;
+    width:300px;
+    display:flex;
+    float:left;
+    position:relative;
+    top:-19px;
+}
+    .logo h1{
+    font-size:25px;
+    color:rgb(90,125,145);
+    position:relative;
+    top:35px;
+    left:30px;
+}
+    h1{
+    position:relative;
+    top:-12px;
+}
+#search{
+    display:flex;
+    float:right;
+    position:relative;
+    top:-30px;
+    right:120px;
+}
+#lo{
+    font-size: 22px;
+    display:flex;
+    float:right;
+    position: relative;
+    top:-22px;
+    left:260px;
+}
+    #lo a:hover{
+    color:#000;
+    text-decoration:none;
+}
+nav{
+    background-color:#99CCCC;
+    height:6%;
+    width:100%;
+    border-bottom: 1px solid #000;
+}
+
+main{
+    height:70%;
+    background-color: #99CCCC;
+}
+
+
+footer{
+    border-top:1px solid #000;
+    height: 25%;
+    width:100%;
+    font-size:16px;
+    background-color: #99CC99;
+}
+.p1{
+    position: relative;
+    left:100px;
+    top:10px;
+}
+.p2{
+    position: relative;
+    left:600px;
+    top:-150px;
+}
+.p3{
+    position: relative;
+    left:800px;
+    top:-275px;
+}
+.erweima1{
+    position: relative;
+    left:1050px;
+    top:-390px;
+}
+.erweima1 p{
+    position: relative;
+    left:18px;
+}
+.erweima2{
+    position: relative;
+    left:1250px;
+    top:-521px;
+}
+.erweima2 p{
+    position: relative;
+    left:18px;
+}
+.userInput{
+    display: block;
+}
+.userInput input{
+    width: 200px;
+    height:25px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    outline: none;
+}
